@@ -1,7 +1,7 @@
 import { sql } from '@vercel/postgres';
 import { formatCurrency } from './utils';
 
-export async function fetchRevenue() {
+export async function fetchRevenue() {  
   try {
     // Artificially delay a response for demo purposes.
     // Don't do this in production :)
